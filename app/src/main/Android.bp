@@ -1,0 +1,48 @@
+android_app {
+    name: "AviumSystemUITools",
+    srcs: [
+        "**/*.kt", 
+        "aidl/**/*.aidl", 
+    ],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    
+    platform_apis: true,
+    system_ext_specific: true,
+    certificate: "platform",
+    privileged: true,
+    required: ["privapp-permissions-avium.xml"],
+
+    static_libs: [
+        "androidx.core_core-ktx",
+        "androidx.appcompat_appcompat",
+        "androidx.activity_activity-compose",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.lifecycle_lifecycle-viewmodel-compose",
+        "androidx.lifecycle_lifecycle-service",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.foundation_foundation-layout",
+        "androidx.compose.animation_animation",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.compose.material3_material3",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-tooling",
+        "androidx.compose.ui_ui-util",
+        "kotlin-stdlib",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
+    ],
+
+    overrides: [
+    ],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-avium.xml",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-avium.xml",
+    filename_from_src: true,
+}

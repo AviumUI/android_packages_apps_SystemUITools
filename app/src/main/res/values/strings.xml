@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SystemUITools</string>
+    <string name="select_images">选择图片</string>
+    <string name="close">关闭</string>
+    <string name="no_images_found">未发现任何图片</string>
+    <string name="save">保存</string>
+    <string name="saved">已保存</string>
+    <string name="selected">已选中</string>
+    <string name="save_with_count">保存 (%d)</string>
+    <string name="share">分享</string>
+</resources>

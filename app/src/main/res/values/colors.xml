@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蓝色系 -->
+    <color name="blue_50">#FFE3F2FD</color>
+    <color name="blue_100">#FFBBDEFB</color>
+    <color name="blue_200">#FF90CAF9</color>
+    <color name="blue_300">#FF64B5F6</color>
+    <color name="blue_400">#FF42A5F5</color>
+    <color name="blue_500">#FF2196F3</color>
+    <color name="blue_600">#FF1E88E5</color>
+    <color name="blue_700">#FF1976D2</color>
+    <color name="blue_800">#FF1565C0</color>
+    <color name="blue_900">#FF0D47A1</color>
+    
+    <!-- 白色系 -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_gray">#FFF5F5F5</color>
+    <color name="light_gray">#FFE0E0E0</color>
+    <color name="medium_gray">#FFB0BEC5</color>
+    <color name="dark_gray">#FF607D8B</color>
+    
+    <!-- 黑色系 -->
+    <color name="black">#FF000000</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    
+    <!-- 原有颜色保留 -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>
